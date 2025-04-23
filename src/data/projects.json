@@ -4,7 +4,7 @@
     "imageSrc": "projects/portfolio.png",
     "description": "A responsive porfolio website built to showcase my profile & to get hands on learning of React.",
     "skills": ["React", "Vanilla JS", "Vite"],
-    "demo": "https://www.example.com",
+    "demo": "https://pranavjcv.netlify.app/",
     "source": "https://github.com/Pranav-OP"
   },
   {
