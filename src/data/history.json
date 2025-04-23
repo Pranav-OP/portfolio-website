@@ -1,0 +1,30 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "Prismatic Softwares Pvt Ltd",
+    "startDate": "Sept 2023",
+    "endDate": "Present",
+    "experiences": [
+      "Worked with clients in manufacturing, healthcare, construction domains to deliver robust solutions.",
+      "Developed multiple console applications as POC that perform read/write operations with PLCs of different vendors such as Allen-Bradley, Siemens & Mitsubishi.",
+      "Developed multiple REST APIs for various modules using LINQ which reduced load times by 50%", 
+      "Used Entity Framework ORM and LINQ to access data in an N-tier architecture",
+      "Implemented JWT authentication & audit trail across APIs for data monitoring.",
+      "Implemented Repository & dependency injection design patterns to encapsulate data access.",
+      "Created background service to fetch and sync data with client DB & for email service."      
+    ],
+    "imageSrc": "history/prismaticlogo.png"
+  },
+  {
+    "role": "Intern Software Engineer",
+    "organisation": "Prismatic Softwares Pvt Ltd",
+    "startDate": "Feb 2023",
+    "endDate": "Aug 2023",
+    "experiences": [
+      "Developed the Python scripts that take input of figma illustrations as images and output the HTML and CSS code for that image.", 
+      "Developed and Implemented numerous REST APIs in a client project with Flask and SQLAlchemy.",
+      "Dealt with different CRUD operations in tables in MySQL database."
+    ],
+    "imageSrc": "history/prismaticlogo.png"
+  }
+]

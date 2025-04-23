@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Portfolio Website",
+    "imageSrc": "projects/portfolio.png",
+    "description": "A responsive porfolio website built to showcase my profile & to get hands on learning of React.",
+    "skills": ["React", "Vanilla JS", "Vite"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Pranav-OP"
+  },
+  {
+    "title": "Login Page Generator",
+    "imageSrc": "projects/project.png",
+    "description": "An automatic login page generator which takes figma illustrations of login pages as input and generates HTML & CSS code for it.",
+    "skills": ["Python", "Streamlit", "Flask"],
+    "demo": "https://github.com/Pranav-OP/automatic-login-page-generator",
+    "source": "https://github.com/Pranav-OP/automatic-login-page-generator"
+  },
+  {
+    "title": "Gate Practice Website",
+    "imageSrc": "projects/gate.jpg",
+    "description": "The project built in university to teach juniors about GATE & to learn about Javascript.",
+    "skills": ["HTML", "CSS", "Javascript", "Sass"],
+    "demo": "https://pranav-op.github.io/gate_practice_website/",
+    "source": "https://github.com/Pranav-OP/gate-practice-website"
+  }  
+]

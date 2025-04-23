@@ -1,0 +1,192 @@
+@import "../../variables.css";
+
+.container{
+    color: var(--color-text);
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.skills{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.skillImage{
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+}
+
+.skillImage img {
+    width: 75px;
+}
+
+.skill p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.history{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.historyItem {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(90deg, var(--color-secondary) 0%, rgba(25,55,109,0) 100%);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.historyItem:hover{
+    cursor: pointer;
+}
+
+/* Ribbon Hover Effect START */
+/* Top and bottom border (horizontal) */
+.historyItem::before,
+.historyItem::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 0%;
+    background-color: var(--color-primary);
+    transition: width 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.historyItem::before {
+    top: 0;
+    left: 0;
+}
+
+.historyItem::after {
+    bottom: 0;
+    right: 0;
+}
+
+/* Left and right borders (vertical) */
+.ribbon-left,
+.ribbon-right {
+    position: absolute;
+    width: 4px;
+    height: 0%;
+    background-color: var(--color-primary);
+    transition: height 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.ribbon-left {
+    top: 0;
+    left: 0;
+}
+
+.ribbon-right {
+    top: 0;
+    right: 0;
+}
+
+/* Hover effects */
+.historyItem:hover::before,
+.historyItem:hover::after {
+    width: 100%;
+}
+
+.historyItem:hover .ribbon-left,
+.historyItem:hover .ribbon-right {
+    height: 100%;
+}
+
+/* Ribbon Hover Effect END */
+
+.historyItem img{
+    width: 150px;
+    margin-right: 30px;
+}
+
+.historyItemDetails h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.historyItemDetails h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.historyItemDetails p{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.historyItemDetails ul{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.historyItemDetails ul li{
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:830px) {
+    .content{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .skills{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .history{
+        width: 100%;
+        gap: 10px;
+    }
+
+    .historyItem{
+        flex-direction: column;
+    }
+}
