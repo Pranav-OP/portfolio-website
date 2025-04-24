@@ -15,4 +15,6 @@ React + Vite, CSS Modules, jsx
 Visit : https://pranavjcv.netlify.app/
 
 Hope you like it!! Happy debugging 😉
+
+## Potfolio Visuals 
 ![Figma Illustration of actual portfolio website](https://github.com/user-attachments/assets/649460a8-58b0-4b1a-a6f6-c9e120ad7535)
